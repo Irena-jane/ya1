@@ -1,0 +1,17 @@
+{
+  "name": "Aeroport",
+  "version": "0.0.1",
+  "description": "Yandex #3",
+  "main": "Gruntfile.js",
+  "author": "Irina",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^2.2.0",
+    "grunt-combine-media-queries": "^1.0.19",
+    "grunt-contrib-cssmin": "^0.12.2",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  }
+}

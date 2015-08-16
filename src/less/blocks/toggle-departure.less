@@ -1,0 +1,36 @@
+.check {
+	position: fixed;
+	z-index: 150;
+	top: 68px;
+
+	&--to{
+		left: 7px;
+	}
+	&--from{
+		left: 160px;
+	}
+}
+
+#to:checked ~ #tab2 .departure {
+	display: none;
+}
+#to:checked ~ #tab2 .arrival{
+	display: table-row;
+}
+#from:checked ~ #tab2 {
+	tr {
+		// background-color: transparent;
+	}
+	.departure {
+		display: table-row;
+
+		
+	}
+
+}
+
+#from:checked ~ #tab2 .arrival{
+	display: none;
+
+}
+
